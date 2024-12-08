@@ -1,0 +1,8 @@
+@Cryptocurrency_HostAddress = http://localhost:5139
+
+GET {{Cryptocurrency_HostAddress}}/api/crypto/btc
+Accept: application/json
+
+###
+GET {{Cryptocurrency_HostAddress}}/api/crypto/getlastsearch
+Accept: application/json

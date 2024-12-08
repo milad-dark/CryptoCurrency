@@ -1,0 +1,787 @@
+2024-12-08 23:38:18.718 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-08 23:38:18.834 +03:30 [DBG] Hosting starting
+2024-12-08 23:38:18.889 +03:30 [INF] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-08 23:38:18.903 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+2024-12-08 23:38:18.954 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+2024-12-08 23:38:18.966 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+2024-12-08 23:38:18.980 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+2024-12-08 23:38:18.994 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+2024-12-08 23:38:19.037 +03:30 [DBG] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+2024-12-08 23:38:19.061 +03:30 [DBG] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+2024-12-08 23:38:19.061 +03:30 [DBG] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+2024-12-08 23:38:19.062 +03:30 [DBG] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+2024-12-08 23:38:19.063 +03:30 [DBG] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+2024-12-08 23:38:19.067 +03:30 [DBG] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+2024-12-08 23:38:19.070 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-08 23:38:19.072 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-12-08 23:38:19.073 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-08 23:38:19.077 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-12-08 23:38:19.079 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-12-08 23:38:19.081 +03:30 [DBG] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+2024-12-08 23:38:19.082 +03:30 [DBG] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+2024-12-08 23:38:19.557 +03:30 [INF] Now listening on: https://localhost:7014
+2024-12-08 23:38:19.558 +03:30 [INF] Now listening on: http://localhost:5139
+2024-12-08 23:38:19.559 +03:30 [DBG] Loaded hosting startup assembly Cryptocurrency.Api
+2024-12-08 23:38:19.560 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-08 23:38:19.562 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-08 23:38:19.562 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-08 23:38:19.637 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-08 23:38:19.638 +03:30 [INF] Hosting environment: Development
+2024-12-08 23:38:19.640 +03:30 [INF] Content root path: C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api
+2024-12-08 23:38:19.640 +03:30 [DBG] Hosting started
+2024-12-08 23:38:19.868 +03:30 [DBG] Connection id "0HN8NOG7P2ALR" accepted.
+2024-12-08 23:38:19.868 +03:30 [DBG] Connection id "0HN8NOG7P2ALS" accepted.
+2024-12-08 23:38:19.880 +03:30 [DBG] Connection id "0HN8NOG7P2ALS" received FIN.
+2024-12-08 23:38:19.880 +03:30 [DBG] Connection id "0HN8NOG7P2ALR" received FIN.
+2024-12-08 23:38:19.884 +03:30 [DBG] Connection id "0HN8NOG7P2ALR" started.
+2024-12-08 23:38:19.884 +03:30 [DBG] Connection id "0HN8NOG7P2ALS" started.
+2024-12-08 23:38:19.921 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-08 23:38:19.921 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-08 23:38:20.250 +03:30 [DBG] Connection id "0HN8NOG7P2ALR" stopped.
+2024-12-08 23:38:20.250 +03:30 [DBG] Connection id "0HN8NOG7P2ALS" stopped.
+2024-12-08 23:38:20.254 +03:30 [DBG] Connection id "0HN8NOG7P2ALR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-08 23:38:20.254 +03:30 [DBG] Connection id "0HN8NOG7P2ALS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-08 23:38:20.300 +03:30 [DBG] Connection id "0HN8NOG7P2ALT" accepted.
+2024-12-08 23:38:20.301 +03:30 [DBG] Connection id "0HN8NOG7P2ALT" started.
+2024-12-08 23:38:20.343 +03:30 [DBG] Connection 0HN8NOG7P2ALT established using the following protocol: "Tls13"
+2024-12-08 23:38:20.471 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+2024-12-08 23:38:20.740 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-08 23:38:20.768 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-12-08 23:38:20.769 +03:30 [DBG] Request did not match any endpoints
+2024-12-08 23:38:20.823 +03:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-12-08 23:38:20.825 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-12-08 23:38:20.841 +03:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-12-08 23:38:20.842 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-12-08 23:38:20.845 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 383.0176ms
+2024-12-08 23:38:21.130 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-08 23:38:21.130 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+2024-12-08 23:38:21.136 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 6.227ms
+2024-12-08 23:38:21.170 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 39.7464ms
+2024-12-08 23:38:21.230 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+2024-12-08 23:38:21.233 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-08 23:38:21.233 +03:30 [DBG] Request did not match any endpoints
+2024-12-08 23:38:21.314 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 84.3975ms
+2024-12-08 23:38:30.062 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - null null
+2024-12-08 23:38:30.066 +03:30 [DBG] 2 candidate(s) found for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:38:30.068 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/getlastsearch' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:38:30.069 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/{code}' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:38:30.071 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:38:30.073 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-08 23:38:30.145 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-08 23:38:30.149 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:38:30.165 +03:30 [INF] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+2024-12-08 23:38:30.168 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-08 23:38:30.169 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-08 23:38:30.171 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-08 23:38:30.172 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-08 23:38:30.173 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-08 23:38:30.175 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:38:30.346 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-08 23:38:30.361 +03:30 [DBG] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:38:30.409 +03:30 [INF] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+2024-12-08 23:38:31.001 +03:30 [DBG] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+2024-12-08 23:38:31.029 +03:30 [DBG] Compiling query expression: 
+'DbSet<SearchHistory>()
+    .Include(sh => sh.CryptoSymbol)
+    .ThenInclude(ex => ex.ExchangeRates)
+    .Where(sh => sh.UserId == __userId_0)'
+2024-12-08 23:38:31.085 +03:30 [DBG] Including navigation: 'SearchHistory.CryptoSymbol'.
+2024-12-08 23:38:31.088 +03:30 [DBG] Including navigation: 'CryptoSymbol.ExchangeRates'.
+2024-12-08 23:38:31.207 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SearchHistory>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: SearchHistory.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: SearchHistory.CryptoSymbolId (int) Required FK Index, 1], [Property: SearchHistory.SearchedAt (DateTime) Required, 2], [Property: SearchHistory.UserId (int) Required, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: CryptoSymbol.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: CryptoSymbol.Symbol (string) Required MaxLength(10), 5], [Property: CryptoSymbol.UserId (int) Required, 6] }
+            2 -> 0
+            3 -> 4
+            4 -> Dictionary<IProperty, int> { [Property: ExchangeRates.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 7], [Property: ExchangeRates.CryptoSymbolId (int) Required FK Index, 8], [Property: ExchangeRates.Currency (string) Required MaxLength(5), 9], [Property: ExchangeRates.Price (decimal) Required, 10], [Property: ExchangeRates.Timestamp (DateTime) Required, 11] }
+            5 -> 7
+        SELECT s.Id, s.CryptoSymbolId, s.SearchedAt, s.UserId, c.Id, c.Symbol, c.UserId, e.Id, e.CryptoSymbolId, e.Currency, e.Price, e.Timestamp
+        FROM SearchHistories AS s
+        INNER JOIN CryptoSymbols AS c ON s.CryptoSymbolId == c.Id
+        LEFT JOIN ExchangeRates AS e ON c.Id == e.CryptoSymbolId
+        WHERE s.UserId == @__userId_0
+        ORDER BY s.Id ASC, c.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SearchHistory>, 
+    Cryptocurrency.Infrastructure.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-08 23:38:31.233 +03:30 [DBG] Creating DbConnection.
+2024-12-08 23:38:31.243 +03:30 [DBG] Created DbConnection. (8ms).
+2024-12-08 23:38:31.246 +03:30 [DBG] Opening connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:38:31.263 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:38:31.268 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:38:31.273 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (3ms).
+2024-12-08 23:38:31.277 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2024-12-08 23:38:31.283 +03:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:38:31.306 +03:30 [INF] Executed DbCommand (23ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:38:31.331 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.352 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.354 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.362 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.363 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.365 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.371 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.377 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.378 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.379 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.381 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:38:31.384 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:38:31.389 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 78ms reading results.
+2024-12-08 23:38:31.393 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:38:31.396 +03:30 [DBG] Closed connection to database 'main' on server 'ecommerce.db' (2ms).
+2024-12-08 23:42:47.815 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-08 23:42:47.916 +03:30 [DBG] Hosting starting
+2024-12-08 23:42:47.948 +03:30 [INF] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-08 23:42:47.959 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+2024-12-08 23:42:47.965 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+2024-12-08 23:42:47.966 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+2024-12-08 23:42:47.967 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+2024-12-08 23:42:47.968 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+2024-12-08 23:42:47.973 +03:30 [DBG] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+2024-12-08 23:42:47.977 +03:30 [DBG] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+2024-12-08 23:42:47.978 +03:30 [DBG] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+2024-12-08 23:42:47.979 +03:30 [DBG] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+2024-12-08 23:42:47.980 +03:30 [DBG] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+2024-12-08 23:42:47.987 +03:30 [DBG] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+2024-12-08 23:42:47.991 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-08 23:42:47.993 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-12-08 23:42:47.994 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-08 23:42:48.000 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-12-08 23:42:48.003 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-12-08 23:42:48.006 +03:30 [DBG] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+2024-12-08 23:42:48.008 +03:30 [DBG] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+2024-12-08 23:42:48.169 +03:30 [INF] Now listening on: https://localhost:7014
+2024-12-08 23:42:48.170 +03:30 [INF] Now listening on: http://localhost:5139
+2024-12-08 23:42:48.170 +03:30 [DBG] Loaded hosting startup assembly Cryptocurrency.Api
+2024-12-08 23:42:48.171 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-08 23:42:48.171 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-08 23:42:48.172 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-08 23:42:48.208 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-08 23:42:48.209 +03:30 [INF] Hosting environment: Development
+2024-12-08 23:42:48.210 +03:30 [INF] Content root path: C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api
+2024-12-08 23:42:48.211 +03:30 [DBG] Hosting started
+2024-12-08 23:42:48.568 +03:30 [DBG] Connection id "0HN8NOINRJ90S" accepted.
+2024-12-08 23:42:48.570 +03:30 [DBG] Connection id "0HN8NOINRJ90S" started.
+2024-12-08 23:42:48.579 +03:30 [DBG] Connection id "0HN8NOINRJ90T" accepted.
+2024-12-08 23:42:48.580 +03:30 [DBG] Connection id "0HN8NOINRJ90T" started.
+2024-12-08 23:42:48.594 +03:30 [DBG] Connection id "0HN8NOINRJ90S" received FIN.
+2024-12-08 23:42:48.594 +03:30 [DBG] Connection id "0HN8NOINRJ90T" received FIN.
+2024-12-08 23:42:48.601 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-08 23:42:48.601 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-08 23:42:48.629 +03:30 [DBG] Connection id "0HN8NOINRJ90T" stopped.
+2024-12-08 23:42:48.629 +03:30 [DBG] Connection id "0HN8NOINRJ90S" stopped.
+2024-12-08 23:42:48.631 +03:30 [DBG] Connection id "0HN8NOINRJ90S" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-08 23:42:48.631 +03:30 [DBG] Connection id "0HN8NOINRJ90T" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-08 23:42:48.730 +03:30 [DBG] Connection id "0HN8NOINRJ90U" accepted.
+2024-12-08 23:42:48.731 +03:30 [DBG] Connection id "0HN8NOINRJ90U" started.
+2024-12-08 23:42:48.764 +03:30 [DBG] Connection 0HN8NOINRJ90U established using the following protocol: "Tls13"
+2024-12-08 23:42:48.801 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+2024-12-08 23:42:48.960 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-08 23:42:48.973 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-12-08 23:42:48.974 +03:30 [DBG] Request did not match any endpoints
+2024-12-08 23:42:49.007 +03:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-12-08 23:42:49.010 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-12-08 23:42:49.021 +03:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-12-08 23:42:49.023 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-12-08 23:42:49.025 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 226.3766ms
+2024-12-08 23:42:49.051 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+2024-12-08 23:42:49.051 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-08 23:42:49.076 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 21.323ms
+2024-12-08 23:42:49.101 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 50.3253ms
+2024-12-08 23:42:49.287 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+2024-12-08 23:42:49.291 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-08 23:42:49.292 +03:30 [DBG] Request did not match any endpoints
+2024-12-08 23:42:49.368 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 81.7865ms
+2024-12-08 23:43:11.737 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - null null
+2024-12-08 23:43:11.742 +03:30 [DBG] 2 candidate(s) found for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:43:11.744 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/getlastsearch' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:43:11.746 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/{code}' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:43:11.747 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:43:11.749 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-08 23:43:11.794 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-08 23:43:11.797 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:43:11.810 +03:30 [INF] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+2024-12-08 23:43:11.812 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-08 23:43:11.813 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-08 23:43:11.815 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-08 23:43:11.816 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-08 23:43:11.816 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-08 23:43:11.818 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:43:11.913 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-08 23:43:11.926 +03:30 [DBG] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:43:11.962 +03:30 [INF] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+2024-12-08 23:43:12.344 +03:30 [DBG] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+2024-12-08 23:43:12.369 +03:30 [DBG] Compiling query expression: 
+'DbSet<SearchHistory>()
+    .Include(sh => sh.CryptoSymbol)
+    .ThenInclude(ex => ex.ExchangeRates)
+    .Where(sh => sh.UserId == __userId_0)'
+2024-12-08 23:43:12.427 +03:30 [DBG] Including navigation: 'SearchHistory.CryptoSymbol'.
+2024-12-08 23:43:12.431 +03:30 [DBG] Including navigation: 'CryptoSymbol.ExchangeRates'.
+2024-12-08 23:43:12.547 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SearchHistory>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: SearchHistory.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: SearchHistory.CryptoSymbolId (int) Required FK Index, 1], [Property: SearchHistory.SearchedAt (DateTime) Required, 2], [Property: SearchHistory.UserId (int) Required, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: CryptoSymbol.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: CryptoSymbol.Symbol (string) Required MaxLength(10), 5], [Property: CryptoSymbol.UserId (int) Required, 6] }
+            2 -> 0
+            3 -> 4
+            4 -> Dictionary<IProperty, int> { [Property: ExchangeRates.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 7], [Property: ExchangeRates.CryptoSymbolId (int) Required FK Index, 8], [Property: ExchangeRates.Currency (string) Required MaxLength(5), 9], [Property: ExchangeRates.Price (decimal) Required, 10], [Property: ExchangeRates.Timestamp (DateTime) Required, 11] }
+            5 -> 7
+        SELECT s.Id, s.CryptoSymbolId, s.SearchedAt, s.UserId, c.Id, c.Symbol, c.UserId, e.Id, e.CryptoSymbolId, e.Currency, e.Price, e.Timestamp
+        FROM SearchHistories AS s
+        INNER JOIN CryptoSymbols AS c ON s.CryptoSymbolId == c.Id
+        LEFT JOIN ExchangeRates AS e ON c.Id == e.CryptoSymbolId
+        WHERE s.UserId == @__userId_0
+        ORDER BY s.Id ASC, c.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SearchHistory>, 
+    Cryptocurrency.Infrastructure.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-08 23:43:12.571 +03:30 [DBG] Creating DbConnection.
+2024-12-08 23:43:12.579 +03:30 [DBG] Created DbConnection. (7ms).
+2024-12-08 23:43:12.582 +03:30 [DBG] Opening connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:43:12.591 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:43:12.593 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:43:12.597 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-12-08 23:43:12.599 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2024-12-08 23:43:12.606 +03:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:43:12.624 +03:30 [INF] Executed DbCommand (19ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:43:12.643 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.665 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.667 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.676 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.677 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.677 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.684 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.690 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.691 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.691 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.692 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:43:12.696 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:43:12.700 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 72ms reading results.
+2024-12-08 23:43:12.703 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:43:12.705 +03:30 [DBG] Closed connection to database 'main' on server 'ecommerce.db' (2ms).
+2024-12-08 23:43:12.706 +03:30 [INF] Get history user
+2024-12-08 23:43:12.714 +03:30 [INF] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 747.2498ms.
+2024-12-08 23:43:12.717 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-08 23:43:12.719 +03:30 [DBG] No information found on request to perform content negotiation.
+2024-12-08 23:43:12.721 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-08 23:43:12.722 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-08 23:43:12.723 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-08 23:43:12.724 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-08 23:43:12.739 +03:30 [INF] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 919.7513ms
+2024-12-08 23:43:12.740 +03:30 [INF] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:43:12.742 +03:30 [DBG] 'ApplicationContext' disposed.
+2024-12-08 23:43:12.746 +03:30 [DBG] Disposing connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:43:12.748 +03:30 [DBG] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+2024-12-08 23:43:12.749 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - 200 null application/json; charset=utf-8 1012.0528ms
+2024-12-08 23:45:11.836 +03:30 [DBG] HttpMessageHandler expired after 120000ms for client 'Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2024-12-08 23:45:11.836 +03:30 [DBG] HttpMessageHandler expired after 120000ms for client 'Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2024-12-08 23:45:16.955 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-08 23:45:17.047 +03:30 [DBG] Hosting starting
+2024-12-08 23:45:17.080 +03:30 [INF] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-08 23:45:17.088 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+2024-12-08 23:45:17.093 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+2024-12-08 23:45:17.094 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+2024-12-08 23:45:17.095 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+2024-12-08 23:45:17.096 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+2024-12-08 23:45:17.101 +03:30 [DBG] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+2024-12-08 23:45:17.106 +03:30 [DBG] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+2024-12-08 23:45:17.107 +03:30 [DBG] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+2024-12-08 23:45:17.108 +03:30 [DBG] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+2024-12-08 23:45:17.109 +03:30 [DBG] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+2024-12-08 23:45:17.114 +03:30 [DBG] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+2024-12-08 23:45:17.118 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-08 23:45:17.121 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-12-08 23:45:17.123 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-08 23:45:17.129 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-12-08 23:45:17.131 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-12-08 23:45:17.133 +03:30 [DBG] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+2024-12-08 23:45:17.134 +03:30 [DBG] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+2024-12-08 23:45:17.262 +03:30 [INF] Now listening on: https://localhost:7014
+2024-12-08 23:45:17.263 +03:30 [INF] Now listening on: http://localhost:5139
+2024-12-08 23:45:17.264 +03:30 [DBG] Loaded hosting startup assembly Cryptocurrency.Api
+2024-12-08 23:45:17.265 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-08 23:45:17.266 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-08 23:45:17.266 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-08 23:45:17.274 +03:30 [DBG] Connection id "0HN8NOK45OOG5" accepted.
+2024-12-08 23:45:17.276 +03:30 [DBG] Connection id "0HN8NOK45OOG5" started.
+2024-12-08 23:45:17.293 +03:30 [DBG] Connection id "0HN8NOK45OOG6" accepted.
+2024-12-08 23:45:17.294 +03:30 [DBG] Connection id "0HN8NOK45OOG6" started.
+2024-12-08 23:45:17.303 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-08 23:45:17.304 +03:30 [INF] Hosting environment: Development
+2024-12-08 23:45:17.305 +03:30 [INF] Content root path: C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api
+2024-12-08 23:45:17.305 +03:30 [DBG] Hosting started
+2024-12-08 23:45:17.309 +03:30 [DBG] Connection id "0HN8NOK45OOG5" received FIN.
+2024-12-08 23:45:17.309 +03:30 [DBG] Connection id "0HN8NOK45OOG6" received FIN.
+2024-12-08 23:45:17.315 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-08 23:45:17.315 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-08 23:45:17.339 +03:30 [DBG] Connection id "0HN8NOK45OOG5" stopped.
+2024-12-08 23:45:17.339 +03:30 [DBG] Connection id "0HN8NOK45OOG6" stopped.
+2024-12-08 23:45:17.342 +03:30 [DBG] Connection id "0HN8NOK45OOG6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-08 23:45:17.342 +03:30 [DBG] Connection id "0HN8NOK45OOG5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-08 23:45:17.443 +03:30 [DBG] Connection id "0HN8NOK45OOG7" accepted.
+2024-12-08 23:45:17.444 +03:30 [DBG] Connection id "0HN8NOK45OOG7" started.
+2024-12-08 23:45:17.470 +03:30 [DBG] Connection 0HN8NOK45OOG7 established using the following protocol: "Tls13"
+2024-12-08 23:45:17.520 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+2024-12-08 23:45:17.694 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-08 23:45:17.706 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-12-08 23:45:17.709 +03:30 [DBG] Request did not match any endpoints
+2024-12-08 23:45:17.744 +03:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-12-08 23:45:17.746 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-12-08 23:45:17.757 +03:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-12-08 23:45:17.758 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-12-08 23:45:17.760 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 245.6243ms
+2024-12-08 23:45:17.852 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+2024-12-08 23:45:17.852 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-08 23:45:17.871 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 18.571ms
+2024-12-08 23:45:17.890 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.2171ms
+2024-12-08 23:45:18.014 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+2024-12-08 23:45:18.017 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-08 23:45:18.017 +03:30 [DBG] Request did not match any endpoints
+2024-12-08 23:45:18.081 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 67.3719ms
+2024-12-08 23:45:53.748 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - null null
+2024-12-08 23:45:53.752 +03:30 [DBG] 2 candidate(s) found for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:45:53.755 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/getlastsearch' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:45:53.756 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/{code}' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:45:53.757 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:45:53.759 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-08 23:45:53.804 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-08 23:45:53.806 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:45:53.818 +03:30 [INF] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+2024-12-08 23:45:53.821 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-08 23:45:53.822 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-08 23:45:53.824 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-08 23:45:53.825 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-08 23:45:53.826 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-08 23:45:53.827 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:45:53.923 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-08 23:45:53.937 +03:30 [DBG] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:45:53.973 +03:30 [INF] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+2024-12-08 23:45:54.377 +03:30 [DBG] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+2024-12-08 23:45:54.405 +03:30 [DBG] Compiling query expression: 
+'DbSet<SearchHistory>()
+    .Include(sh => sh.CryptoSymbol)
+    .ThenInclude(ex => ex.ExchangeRates)
+    .Where(sh => sh.UserId == __userId_0)'
+2024-12-08 23:45:54.463 +03:30 [DBG] Including navigation: 'SearchHistory.CryptoSymbol'.
+2024-12-08 23:45:54.466 +03:30 [DBG] Including navigation: 'CryptoSymbol.ExchangeRates'.
+2024-12-08 23:45:54.583 +03:30 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SearchHistory>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: SearchHistory.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: SearchHistory.CryptoSymbolId (int) Required FK Index, 1], [Property: SearchHistory.SearchedAt (DateTime) Required, 2], [Property: SearchHistory.UserId (int) Required, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: CryptoSymbol.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: CryptoSymbol.Symbol (string) Required MaxLength(10), 5], [Property: CryptoSymbol.UserId (int) Required, 6] }
+            2 -> 0
+            3 -> 4
+            4 -> Dictionary<IProperty, int> { [Property: ExchangeRates.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 7], [Property: ExchangeRates.CryptoSymbolId (int) Required FK Index, 8], [Property: ExchangeRates.Currency (string) Required MaxLength(5), 9], [Property: ExchangeRates.Price (decimal) Required, 10], [Property: ExchangeRates.Timestamp (DateTime) Required, 11] }
+            5 -> 7
+        SELECT s.Id, s.CryptoSymbolId, s.SearchedAt, s.UserId, c.Id, c.Symbol, c.UserId, e.Id, e.CryptoSymbolId, e.Currency, e.Price, e.Timestamp
+        FROM SearchHistories AS s
+        INNER JOIN CryptoSymbols AS c ON s.CryptoSymbolId == c.Id
+        LEFT JOIN ExchangeRates AS e ON c.Id == e.CryptoSymbolId
+        WHERE s.UserId == @__userId_0
+        ORDER BY s.Id ASC, c.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SearchHistory>, 
+    Cryptocurrency.Infrastructure.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2024-12-08 23:45:54.607 +03:30 [DBG] Creating DbConnection.
+2024-12-08 23:45:54.615 +03:30 [DBG] Created DbConnection. (6ms).
+2024-12-08 23:45:54.617 +03:30 [DBG] Opening connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:45:54.626 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:45:54.628 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:45:54.632 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2024-12-08 23:45:54.637 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2024-12-08 23:45:54.643 +03:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:45:54.663 +03:30 [INF] Executed DbCommand (20ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:45:54.684 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.705 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.707 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.715 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.716 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.717 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.722 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.729 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.730 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.731 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.732 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:45:54.735 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:45:54.738 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 70ms reading results.
+2024-12-08 23:45:54.742 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:45:54.745 +03:30 [DBG] Closed connection to database 'main' on server 'ecommerce.db' (3ms).
+2024-12-08 23:45:54.747 +03:30 [INF] Get history user
+2024-12-08 23:45:54.752 +03:30 [INF] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 775.8463ms.
+2024-12-08 23:45:54.755 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-08 23:45:54.758 +03:30 [DBG] No information found on request to perform content negotiation.
+2024-12-08 23:45:54.758 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-08 23:45:54.759 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-08 23:45:54.760 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-08 23:45:54.761 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-08 23:45:54.774 +03:30 [INF] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 946.0386ms
+2024-12-08 23:45:54.776 +03:30 [INF] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:45:54.778 +03:30 [DBG] 'ApplicationContext' disposed.
+2024-12-08 23:45:54.783 +03:30 [DBG] Disposing connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:45:54.784 +03:30 [DBG] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+2024-12-08 23:45:54.785 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - 200 null application/json; charset=utf-8 1038.2616ms
+2024-12-08 23:46:12.698 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/api/crypto/xrp - null null
+2024-12-08 23:46:12.701 +03:30 [DBG] 1 candidate(s) found for the request path '/api/crypto/xrp'
+2024-12-08 23:46:12.702 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/{code}' is valid for the request path '/api/crypto/xrp'
+2024-12-08 23:46:12.703 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+2024-12-08 23:46:12.704 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-08 23:46:12.706 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-08 23:46:12.708 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+2024-12-08 23:46:12.716 +03:30 [INF] Route matched with {action = "GetCryptoRates", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCryptoRates(System.String) on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+2024-12-08 23:46:12.717 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-08 23:46:12.718 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-08 23:46:12.719 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-08 23:46:12.721 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-08 23:46:12.722 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-08 23:46:12.723 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:46:12.725 +03:30 [DBG] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:46:12.739 +03:30 [DBG] Attempting to bind parameter 'code' of type 'System.String' ...
+2024-12-08 23:46:12.741 +03:30 [DBG] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+2024-12-08 23:46:12.742 +03:30 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2024-12-08 23:46:12.743 +03:30 [DBG] Done attempting to bind parameter 'code' of type 'System.String'.
+2024-12-08 23:46:12.744 +03:30 [DBG] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+2024-12-08 23:46:12.751 +03:30 [DBG] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+2024-12-08 23:46:12.765 +03:30 [INF] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) - Validation state: "Valid"
+2024-12-08 23:46:32.099 +03:30 [INF] Start processing HTTP request GET https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=XRP
+2024-12-08 23:46:32.101 +03:30 [INF] Sending HTTP request GET https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=XRP
+2024-12-08 23:46:32.805 +03:30 [INF] Received HTTP response headers after 701.3767ms - 200
+2024-12-08 23:46:32.807 +03:30 [INF] End processing HTTP request after 708.7364ms - 200
+2024-12-08 23:46:32.829 +03:30 [INF] Start processing HTTP request GET http://api.exchangeratesapi.io/v1/latest?access_key=f98dab572235feed5c651a18c2c13228
+2024-12-08 23:46:32.831 +03:30 [INF] Sending HTTP request GET http://api.exchangeratesapi.io/v1/latest?access_key=f98dab572235feed5c651a18c2c13228
+2024-12-08 23:46:33.567 +03:30 [INF] Received HTTP response headers after 735.2947ms - 200
+2024-12-08 23:46:33.569 +03:30 [INF] End processing HTTP request after 739.8297ms - 200
+2024-12-08 23:46:33.582 +03:30 [INF] Start saving Crypto symbol and history for user
+2024-12-08 23:46:33.593 +03:30 [DBG] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+2024-12-08 23:46:33.607 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'CryptoSymbol.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.614 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.618 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.619 +03:30 [DBG] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.623 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.624 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.625 +03:30 [DBG] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.626 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.626 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.627 +03:30 [DBG] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.628 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.629 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.629 +03:30 [DBG] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.630 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.632 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.632 +03:30 [DBG] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.633 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.636 +03:30 [DBG] SaveChanges starting for 'ApplicationContext'.
+2024-12-08 23:46:33.639 +03:30 [DBG] DetectChanges starting for 'ApplicationContext'.
+2024-12-08 23:46:33.648 +03:30 [DBG] DetectChanges completed for 'ApplicationContext'.
+2024-12-08 23:46:33.693 +03:30 [DBG] Creating DbConnection.
+2024-12-08 23:46:33.695 +03:30 [DBG] Created DbConnection. (2ms).
+2024-12-08 23:46:33.696 +03:30 [DBG] Opening connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:46:33.697 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.699 +03:30 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-12-08 23:46:33.703 +03:30 [DBG] Began transaction with isolation level 'Serializable'.
+2024-12-08 23:46:33.705 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.705 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.707 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.708 +03:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "CryptoSymbols" ("Symbol", "UserId")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-12-08 23:46:33.712 +03:30 [INF] Executed DbCommand (4ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "CryptoSymbols" ("Symbol", "UserId")
+VALUES (@p0, @p1)
+RETURNING "Id";
+2024-12-08 23:46:33.720 +03:30 [DBG] The foreign key property 'CryptoSymbol.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.724 +03:30 [DBG] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.726 +03:30 [DBG] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.727 +03:30 [DBG] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.728 +03:30 [DBG] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.729 +03:30 [DBG] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.730 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.731 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 17ms reading results.
+2024-12-08 23:46:33.733 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.733 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.734 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.735 +03:30 [DBG] Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 3), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+2024-12-08 23:46:33.736 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 3), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+2024-12-08 23:46:33.737 +03:30 [DBG] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.739 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.740 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 2ms reading results.
+2024-12-08 23:46:33.741 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.742 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.743 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.744 +03:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.745 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.746 +03:30 [DBG] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.747 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.748 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 1ms reading results.
+2024-12-08 23:46:33.749 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.749 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.750 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.751 +03:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.752 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.753 +03:30 [DBG] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.754 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.755 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 1ms reading results.
+2024-12-08 23:46:33.756 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.757 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.757 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.758 +03:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.759 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.761 +03:30 [DBG] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.762 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.762 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 1ms reading results.
+2024-12-08 23:46:33.763 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.764 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.765 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.765 +03:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.766 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+2024-12-08 23:46:33.768 +03:30 [DBG] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.769 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.770 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 1ms reading results.
+2024-12-08 23:46:33.772 +03:30 [DBG] Committing transaction.
+2024-12-08 23:46:33.783 +03:30 [DBG] Committed transaction.
+2024-12-08 23:46:33.785 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.785 +03:30 [DBG] Closed connection to database 'main' on server 'ecommerce.db' (0ms).
+2024-12-08 23:46:33.787 +03:30 [DBG] Disposing transaction.
+2024-12-08 23:46:33.792 +03:30 [DBG] An entity of type 'CryptoSymbol' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.794 +03:30 [DBG] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.796 +03:30 [DBG] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.797 +03:30 [DBG] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.798 +03:30 [DBG] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.799 +03:30 [DBG] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.801 +03:30 [DBG] SaveChanges completed for 'ApplicationContext' with 6 entities written to the database.
+2024-12-08 23:46:33.803 +03:30 [DBG] 'ApplicationContext' generated a temporary value for the property 'SearchHistory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.804 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.805 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.806 +03:30 [DBG] SaveChanges starting for 'ApplicationContext'.
+2024-12-08 23:46:33.806 +03:30 [DBG] DetectChanges starting for 'ApplicationContext'.
+2024-12-08 23:46:33.809 +03:30 [DBG] DetectChanges completed for 'ApplicationContext'.
+2024-12-08 23:46:33.810 +03:30 [DBG] Opening connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:46:33.811 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.812 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:46:33.812 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:46:33.813 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:46:33.814 +03:30 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "SearchHistories" ("CryptoSymbolId", "SearchedAt", "UserId")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2024-12-08 23:46:33.815 +03:30 [INF] Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "SearchHistories" ("CryptoSymbolId", "SearchedAt", "UserId")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+2024-12-08 23:46:33.817 +03:30 [DBG] The foreign key property 'SearchHistory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2024-12-08 23:46:33.821 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.822 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 5ms reading results.
+2024-12-08 23:46:33.823 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:46:33.824 +03:30 [DBG] Closed connection to database 'main' on server 'ecommerce.db' (0ms).
+2024-12-08 23:46:33.825 +03:30 [DBG] An entity of type 'SearchHistory' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:46:33.826 +03:30 [DBG] SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.
+2024-12-08 23:46:33.827 +03:30 [INF] End saving Crypto symbol and history for user
+2024-12-08 23:46:35.017 +03:30 [INF] Successfully fetched rates for: xrp
+2024-12-08 23:46:39.447 +03:30 [INF] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 26681.1314ms.
+2024-12-08 23:46:39.450 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-08 23:46:39.452 +03:30 [DBG] No information found on request to perform content negotiation.
+2024-12-08 23:46:39.452 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-08 23:46:39.453 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-08 23:46:39.453 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-08 23:46:39.454 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2024-12-08 23:46:39.456 +03:30 [INF] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) in 26733.0593ms
+2024-12-08 23:46:39.458 +03:30 [INF] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+2024-12-08 23:46:39.459 +03:30 [DBG] 'ApplicationContext' disposed.
+2024-12-08 23:46:39.461 +03:30 [DBG] Disposing connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:46:39.462 +03:30 [DBG] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+2024-12-08 23:46:39.463 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/api/crypto/xrp - 200 null application/json; charset=utf-8 26764.9076ms
+2024-12-08 23:47:17.330 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - null null
+2024-12-08 23:47:17.332 +03:30 [DBG] 2 candidate(s) found for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:47:17.333 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/getlastsearch' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:47:17.335 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/{code}' is valid for the request path '/api/crypto/getlastsearch'
+2024-12-08 23:47:17.336 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:47:17.336 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-08 23:47:17.338 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-08 23:47:17.339 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:47:17.340 +03:30 [INF] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+2024-12-08 23:47:17.341 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-08 23:47:17.341 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-08 23:47:17.342 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-08 23:47:17.343 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-08 23:47:17.344 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-08 23:47:17.345 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:47:17.348 +03:30 [DBG] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+2024-12-08 23:47:17.359 +03:30 [INF] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+2024-12-08 23:47:17.398 +03:30 [DBG] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+2024-12-08 23:47:17.406 +03:30 [DBG] Creating DbConnection.
+2024-12-08 23:47:17.406 +03:30 [DBG] Created DbConnection. (0ms).
+2024-12-08 23:47:17.407 +03:30 [DBG] Opening connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:47:17.408 +03:30 [DBG] Opened connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:47:17.408 +03:30 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-08 23:47:17.409 +03:30 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-08 23:47:17.410 +03:30 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2024-12-08 23:47:17.411 +03:30 [DBG] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:47:17.412 +03:30 [INF] Executed DbCommand (2ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+2024-12-08 23:47:17.414 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.415 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.416 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.417 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.417 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.418 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.419 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.420 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.421 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.421 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.422 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.423 +03:30 [DBG] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.424 +03:30 [DBG] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.425 +03:30 [DBG] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.426 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.427 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.428 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.429 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.429 +03:30 [DBG] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2024-12-08 23:47:17.430 +03:30 [DBG] Closing data reader to 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:47:17.431 +03:30 [DBG] A data reader for 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 17ms reading results.
+2024-12-08 23:47:17.432 +03:30 [DBG] Closing connection to database 'main' on server 'C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+2024-12-08 23:47:17.433 +03:30 [DBG] Closed connection to database 'main' on server 'ecommerce.db' (0ms).
+2024-12-08 23:47:17.434 +03:30 [INF] Get history user
+2024-12-08 23:47:17.434 +03:30 [INF] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 73.8325ms.
+2024-12-08 23:47:17.435 +03:30 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2024-12-08 23:47:17.436 +03:30 [DBG] No information found on request to perform content negotiation.
+2024-12-08 23:47:17.437 +03:30 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2024-12-08 23:47:17.437 +03:30 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2024-12-08 23:47:17.438 +03:30 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2024-12-08 23:47:17.438 +03:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-12-08 23:47:17.439 +03:30 [INF] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 94.2639ms
+2024-12-08 23:47:17.449 +03:30 [INF] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+2024-12-08 23:47:17.450 +03:30 [DBG] 'ApplicationContext' disposed.
+2024-12-08 23:47:17.451 +03:30 [DBG] Disposing connection to database 'main' on server 'ecommerce.db'.
+2024-12-08 23:47:17.452 +03:30 [DBG] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+2024-12-08 23:47:17.453 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/api/crypto/getlastsearch - 200 null application/json; charset=utf-8 123.4865ms
+2024-12-08 23:47:53.835 +03:30 [DBG] HttpMessageHandler expired after 120000ms for client 'Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2024-12-08 23:47:53.847 +03:30 [DBG] HttpMessageHandler expired after 120000ms for client 'Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+2024-12-08 23:48:03.840 +03:30 [DBG] Starting HttpMessageHandler cleanup cycle with 2 items
+2024-12-08 23:48:03.844 +03:30 [DBG] Ending HttpMessageHandler cleanup cycle after 0.0544ms - processed: 0 items - remaining: 2 items

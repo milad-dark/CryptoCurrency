@@ -1,0 +1,241 @@
+2024-12-09 00:02:46.634 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-09 00:02:46.716 +03:30 [DBG] Hosting starting
+2024-12-09 00:02:46.750 +03:30 [INF] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-09 00:02:46.758 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+2024-12-09 00:02:46.762 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+2024-12-09 00:02:46.763 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+2024-12-09 00:02:46.764 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+2024-12-09 00:02:46.765 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+2024-12-09 00:02:46.767 +03:30 [DBG] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+2024-12-09 00:02:46.772 +03:30 [DBG] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+2024-12-09 00:02:46.773 +03:30 [DBG] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+2024-12-09 00:02:46.774 +03:30 [DBG] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+2024-12-09 00:02:46.775 +03:30 [DBG] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+2024-12-09 00:02:46.779 +03:30 [DBG] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+2024-12-09 00:02:46.782 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-09 00:02:46.785 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-12-09 00:02:46.787 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-09 00:02:46.792 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-12-09 00:02:46.794 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-12-09 00:02:46.797 +03:30 [DBG] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+2024-12-09 00:02:46.798 +03:30 [DBG] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+2024-12-09 00:02:46.956 +03:30 [INF] Now listening on: https://localhost:7014
+2024-12-09 00:02:46.956 +03:30 [INF] Now listening on: http://localhost:5139
+2024-12-09 00:02:46.957 +03:30 [DBG] Loaded hosting startup assembly Cryptocurrency.Api
+2024-12-09 00:02:46.958 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-09 00:02:46.958 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-09 00:02:46.959 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-09 00:02:46.992 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 00:02:46.992 +03:30 [INF] Hosting environment: Development
+2024-12-09 00:02:46.993 +03:30 [INF] Content root path: C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api
+2024-12-09 00:02:46.994 +03:30 [DBG] Hosting started
+2024-12-09 00:02:47.096 +03:30 [DBG] Connection id "0HN8NOTT1KPIL" accepted.
+2024-12-09 00:02:47.096 +03:30 [DBG] Connection id "0HN8NOTT1KPIK" accepted.
+2024-12-09 00:02:47.098 +03:30 [DBG] Connection id "0HN8NOTT1KPIL" started.
+2024-12-09 00:02:47.098 +03:30 [DBG] Connection id "0HN8NOTT1KPIK" started.
+2024-12-09 00:02:47.116 +03:30 [DBG] Connection id "0HN8NOTT1KPIK" received FIN.
+2024-12-09 00:02:47.116 +03:30 [DBG] Connection id "0HN8NOTT1KPIL" received FIN.
+2024-12-09 00:02:47.124 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-09 00:02:47.124 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-09 00:02:47.158 +03:30 [DBG] Connection id "0HN8NOTT1KPIK" stopped.
+2024-12-09 00:02:47.158 +03:30 [DBG] Connection id "0HN8NOTT1KPIL" stopped.
+2024-12-09 00:02:47.160 +03:30 [DBG] Connection id "0HN8NOTT1KPIL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 00:02:47.160 +03:30 [DBG] Connection id "0HN8NOTT1KPIK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 00:02:47.264 +03:30 [DBG] Connection id "0HN8NOTT1KPIM" accepted.
+2024-12-09 00:02:47.265 +03:30 [DBG] Connection id "0HN8NOTT1KPIM" started.
+2024-12-09 00:02:47.295 +03:30 [DBG] Connection 0HN8NOTT1KPIM established using the following protocol: "Tls13"
+2024-12-09 00:02:47.335 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+2024-12-09 00:02:47.495 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-09 00:02:47.508 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-12-09 00:02:47.510 +03:30 [DBG] Request did not match any endpoints
+2024-12-09 00:02:47.543 +03:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-12-09 00:02:47.546 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-12-09 00:02:47.557 +03:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-12-09 00:02:47.558 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-12-09 00:02:47.560 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 228.6867ms
+2024-12-09 00:02:47.669 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+2024-12-09 00:02:47.669 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-09 00:02:47.688 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 19.0924ms
+2024-12-09 00:02:47.712 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.4699ms
+2024-12-09 00:02:47.869 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+2024-12-09 00:02:47.872 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-09 00:02:47.873 +03:30 [DBG] Request did not match any endpoints
+2024-12-09 00:02:47.931 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.1048ms
+2024-12-09 00:03:14.606 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7014/login - application/json 50
+2024-12-09 00:03:14.610 +03:30 [DBG] 1 candidate(s) found for the request path '/login'
+2024-12-09 00:03:14.612 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)' with route pattern 'login' is valid for the request path '/login'
+2024-12-09 00:03:14.614 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)'
+2024-12-09 00:03:14.616 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-09 00:03:14.664 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-09 00:03:14.666 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)'
+2024-12-09 00:03:14.684 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Cryptocurrency.Api.Controllers.LoginRequest) on controller Cryptocurrency.Api.Controllers.AuthController (Cryptocurrency.Api).
+2024-12-09 00:03:14.686 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-09 00:03:14.687 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-09 00:03:14.688 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-09 00:03:14.689 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-09 00:03:14.690 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-09 00:03:14.692 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.AuthController (Cryptocurrency.Api)
+2024-12-09 00:03:14.696 +03:30 [INF] Executed action Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api) in 3.4017ms
+2024-12-09 00:03:14.699 +03:30 [INF] Executed endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)'
+2024-12-09 00:03:14.701 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Cryptocurrency.Application.User.IUserService' while attempting to activate 'Cryptocurrency.Api.Controllers.AuthController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method9(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-09 00:03:14.707 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7014/login - 500 null text/plain; charset=utf-8 100.8696ms
+2024-12-09 00:03:14.710 +03:30 [DBG] Connection id "0HN8NOTT1KPIM", Request id "0HN8NOTT1KPIM:0000000B": started reading request body.
+2024-12-09 00:03:14.711 +03:30 [DBG] Connection id "0HN8NOTT1KPIM", Request id "0HN8NOTT1KPIM:0000000B": done reading request body.
+2024-12-09 00:05:26.857 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-09 00:05:26.929 +03:30 [DBG] Hosting starting
+2024-12-09 00:05:26.953 +03:30 [INF] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-12-09 00:05:26.959 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+2024-12-09 00:05:26.963 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+2024-12-09 00:05:26.964 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+2024-12-09 00:05:26.965 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+2024-12-09 00:05:26.966 +03:30 [DBG] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+2024-12-09 00:05:26.969 +03:30 [DBG] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+2024-12-09 00:05:26.972 +03:30 [DBG] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+2024-12-09 00:05:26.973 +03:30 [DBG] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+2024-12-09 00:05:26.974 +03:30 [DBG] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+2024-12-09 00:05:26.975 +03:30 [DBG] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+2024-12-09 00:05:26.980 +03:30 [DBG] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+2024-12-09 00:05:26.982 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-09 00:05:26.984 +03:30 [DBG] Decrypting secret element using Windows DPAPI.
+2024-12-09 00:05:26.986 +03:30 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2024-12-09 00:05:26.990 +03:30 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2024-12-09 00:05:26.991 +03:30 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2024-12-09 00:05:26.993 +03:30 [DBG] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+2024-12-09 00:05:26.995 +03:30 [DBG] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+2024-12-09 00:05:27.130 +03:30 [INF] Now listening on: https://localhost:7014
+2024-12-09 00:05:27.130 +03:30 [INF] Now listening on: http://localhost:5139
+2024-12-09 00:05:27.131 +03:30 [DBG] Loaded hosting startup assembly Cryptocurrency.Api
+2024-12-09 00:05:27.132 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-09 00:05:27.132 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-09 00:05:27.133 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-09 00:05:27.178 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-09 00:05:27.178 +03:30 [INF] Hosting environment: Development
+2024-12-09 00:05:27.179 +03:30 [INF] Content root path: C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api
+2024-12-09 00:05:27.180 +03:30 [DBG] Hosting started
+2024-12-09 00:05:27.341 +03:30 [DBG] Connection id "0HN8NOVCPRP75" accepted.
+2024-12-09 00:05:27.343 +03:30 [DBG] Connection id "0HN8NOVCPRP75" started.
+2024-12-09 00:05:27.365 +03:30 [DBG] Connection id "0HN8NOVCPRP76" accepted.
+2024-12-09 00:05:27.366 +03:30 [DBG] Connection id "0HN8NOVCPRP76" received FIN.
+2024-12-09 00:05:27.366 +03:30 [DBG] Connection id "0HN8NOVCPRP76" started.
+2024-12-09 00:05:27.366 +03:30 [DBG] Connection id "0HN8NOVCPRP75" received FIN.
+2024-12-09 00:05:27.370 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-09 00:05:27.370 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2024-12-09 00:05:27.392 +03:30 [DBG] Connection id "0HN8NOVCPRP76" stopped.
+2024-12-09 00:05:27.393 +03:30 [DBG] Connection id "0HN8NOVCPRP75" stopped.
+2024-12-09 00:05:27.395 +03:30 [DBG] Connection id "0HN8NOVCPRP75" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 00:05:27.395 +03:30 [DBG] Connection id "0HN8NOVCPRP76" sending FIN because: "The Socket transport's send loop completed gracefully."
+2024-12-09 00:05:27.509 +03:30 [DBG] Connection id "0HN8NOVCPRP77" accepted.
+2024-12-09 00:05:27.510 +03:30 [DBG] Connection id "0HN8NOVCPRP77" started.
+2024-12-09 00:05:27.531 +03:30 [DBG] Connection 0HN8NOVCPRP77 established using the following protocol: "Tls13"
+2024-12-09 00:05:27.570 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+2024-12-09 00:05:27.738 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2024-12-09 00:05:27.750 +03:30 [DBG] No candidates found for the request path '/swagger/index.html'
+2024-12-09 00:05:27.751 +03:30 [DBG] Request did not match any endpoints
+2024-12-09 00:05:27.783 +03:30 [DBG] Response markup is scheduled to include Browser Link script injection.
+2024-12-09 00:05:27.787 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2024-12-09 00:05:27.798 +03:30 [DBG] Response markup was updated to include Browser Link script injection.
+2024-12-09 00:05:27.800 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2024-12-09 00:05:27.802 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 235.8781ms
+2024-12-09 00:05:27.896 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+2024-12-09 00:05:27.896 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+2024-12-09 00:05:27.909 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 12.777ms
+2024-12-09 00:05:27.938 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.8128ms
+2024-12-09 00:05:27.989 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+2024-12-09 00:05:27.992 +03:30 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2024-12-09 00:05:27.993 +03:30 [DBG] Request did not match any endpoints
+2024-12-09 00:05:28.052 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 62.5074ms
+2024-12-09 00:05:37.435 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7014/login - application/json 50
+2024-12-09 00:05:37.438 +03:30 [DBG] 1 candidate(s) found for the request path '/login'
+2024-12-09 00:05:37.441 +03:30 [DBG] Endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)' with route pattern 'login' is valid for the request path '/login'
+2024-12-09 00:05:37.443 +03:30 [DBG] Request matched endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)'
+2024-12-09 00:05:37.445 +03:30 [DBG] Static files was skipped as the request already matched an endpoint.
+2024-12-09 00:05:37.495 +03:30 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2024-12-09 00:05:37.497 +03:30 [INF] Executing endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)'
+2024-12-09 00:05:37.517 +03:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] LoginAsync(Cryptocurrency.Api.Controllers.LoginRequest) on controller Cryptocurrency.Api.Controllers.AuthController (Cryptocurrency.Api).
+2024-12-09 00:05:37.521 +03:30 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2024-12-09 00:05:37.523 +03:30 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2024-12-09 00:05:37.526 +03:30 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+2024-12-09 00:05:37.527 +03:30 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2024-12-09 00:05:37.528 +03:30 [DBG] Execution plan of result filters (in the following order): ["None"]
+2024-12-09 00:05:37.530 +03:30 [DBG] Executing controller factory for controller Cryptocurrency.Api.Controllers.AuthController (Cryptocurrency.Api)
+2024-12-09 00:05:37.619 +03:30 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-09 00:05:37.633 +03:30 [DBG] Executed controller factory for controller Cryptocurrency.Api.Controllers.AuthController (Cryptocurrency.Api)
+2024-12-09 00:05:37.644 +03:30 [DBG] Attempting to bind parameter 'request' of type 'Cryptocurrency.Api.Controllers.LoginRequest' ...
+2024-12-09 00:05:37.646 +03:30 [DBG] Attempting to bind parameter 'request' of type 'Cryptocurrency.Api.Controllers.LoginRequest' using the name '' in request data ...
+2024-12-09 00:05:37.649 +03:30 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2024-12-09 00:05:37.656 +03:30 [DBG] Connection id "0HN8NOVCPRP77", Request id "0HN8NOVCPRP77:0000000B": started reading request body.
+2024-12-09 00:05:37.658 +03:30 [DBG] Connection id "0HN8NOVCPRP77", Request id "0HN8NOVCPRP77:0000000B": done reading request body.
+2024-12-09 00:05:37.661 +03:30 [DBG] JSON input formatter succeeded, deserializing to type 'Cryptocurrency.Api.Controllers.LoginRequest'
+2024-12-09 00:05:37.663 +03:30 [DBG] Done attempting to bind parameter 'request' of type 'Cryptocurrency.Api.Controllers.LoginRequest'.
+2024-12-09 00:05:37.664 +03:30 [DBG] Done attempting to bind parameter 'request' of type 'Cryptocurrency.Api.Controllers.LoginRequest'.
+2024-12-09 00:05:37.665 +03:30 [DBG] Attempting to validate the bound parameter 'request' of type 'Cryptocurrency.Api.Controllers.LoginRequest' ...
+2024-12-09 00:05:37.672 +03:30 [DBG] Done attempting to validate the bound parameter 'request' of type 'Cryptocurrency.Api.Controllers.LoginRequest'.
+2024-12-09 00:05:37.714 +03:30 [INF] Executing action method Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api) - Validation state: "Valid"
+2024-12-09 00:05:48.497 +03:30 [INF] Executed action Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api) in 10965.798ms
+2024-12-09 00:05:48.500 +03:30 [INF] Executed endpoint 'Cryptocurrency.Api.Controllers.AuthController.LoginAsync (Cryptocurrency.Api)'
+2024-12-09 00:05:48.505 +03:30 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentOutOfRangeException: IDX10720: Unable to create KeyedHashAlgorithm for algorithm 'HS256', the key size must be greater than: '256' bits, key has '160' bits. (Parameter 'keyBytes')
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.ValidateKeySize(Byte[] keyBytes, String algorithm, Int32 expectedNumberOfBytes)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.CreateKeyedHashAlgorithm()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.CreateInstance()
+   at Microsoft.IdentityModel.Tokens.DisposableObjectPool`1.Allocate()
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.GetKeyedHashAlgorithm(Byte[] keyBytes, String algorithm)
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider.Sign(Byte[] input)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at Cryptocurrency.Api.Application.JwtService.GenerateToken(String username, String userId) in C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\Application\JwtService.cs:line 36
+   at Cryptocurrency.Api.Controllers.AuthController.LoginAsync(LoginRequest request) in C:\Users\New Server\Desktop\CryptoCurrency\Cryptocurrency.Api\Controllers\AuthController.cs:line 29
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-12-09 00:05:48.525 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7014/login - 500 null text/plain; charset=utf-8 11090.4378ms
