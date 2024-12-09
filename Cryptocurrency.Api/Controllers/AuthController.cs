@@ -1,10 +1,13 @@
-﻿using Cryptocurrency.Api.Interfaces;
+﻿using Cryptocurrency.Api.Dtos;
+using Cryptocurrency.Api.Infrastructure.Authorization;
+using Cryptocurrency.Api.Infrastructure.GeneralApiContracts;
+using Cryptocurrency.Api.Infrastructure.Token;
 using Cryptocurrency.Application.User;
-using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Cryptocurrency.Api.Controllers
 {
+    [Route("api/auth")]
     public class AuthController : ControllerBase
     {
         private readonly IJwtService _jwtService;
@@ -16,27 +19,25 @@ namespace Cryptocurrency.Api.Controllers
         }
 
         [HttpPost("login")]
-        public async Task<IActionResult> LoginAsync([FromBody] LoginRequest request)
+        public async Task<IActionResult> LoginAsync([FromBody] LoginRequestDto request)
         {
-            var userId = await _userService.GetUserByUserNameAndPassword(request.Username, request.Password);
-            if (userId == null)
+            var user = await _userService.GetUserByUserNameAndPassword(request.Username, request.Password);
+            if (user == null)
             {
-                return Unauthorized(new { error = "Invalid username or password." });
+                return Unauthorized(ApiResponse.Error("Invalid User"));
             }
 
-            if (request.Username == "test" && request.Password == "password")
-            {
-                var token = _jwtService.GenerateToken(request.Username, "123");
-                return Ok(new { token });
-            }
-
-            return Unauthorized();
+            var token = _jwtService.GenerateToken(request.Username, user.UserId.ToString());
+            return Ok(new ApiResponse<string>(token));
         }
-    }
 
-    public class LoginRequest
-    {
-        public string Username { get; set; }
-        public string Password { get; set; }
+        [FilterAuthorize]
+        [HttpPost("RegisterUser")]
+        public async Task<IActionResult> AddNewUserAsync([FromBody] LoginRequestDto request)
+        {
+            await _userService.SaveNewUser(request.Username, request.Password);
+
+            return Ok(ApiResponse.Success("Register user successfull"));
+        }
     }
 }

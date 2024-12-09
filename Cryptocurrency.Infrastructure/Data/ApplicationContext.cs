@@ -29,7 +29,6 @@ namespace Cryptocurrency.Infrastructure.Data
                       .OnDelete(DeleteBehavior.Cascade);
             });
 
-            // Configure ExchangeRates Entity
             modelBuilder.Entity<ExchangeRates>(entity =>
             {
                 entity.HasKey(er => er.Id);
@@ -44,6 +43,11 @@ namespace Cryptocurrency.Infrastructure.Data
                 .HasOne(sh => sh.CryptoSymbol)
                 .WithMany()
                 .HasForeignKey(sh => sh.CryptoSymbolId);
+
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(cs => cs.UserId);
+            });
         }
     }
 }

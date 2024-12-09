@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Cryptocurrency.Infrastructure.Repositories
 {
-    internal class UserRepository : IUserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly ApplicationContext _context;
 
@@ -16,7 +16,18 @@ namespace Cryptocurrency.Infrastructure.Repositories
 
         public async Task<User> GetUserIdAsync(string username, string password)
         {
-            return await _context.Users.FirstOrDefaultAsync(u=> u.UserName == username && u.Password == password);
+            return await _context.Users.FirstOrDefaultAsync(u => u.UserName == username && u.Password == password);
+        }
+
+        public async Task SaveUser(string username, string password)
+        {
+            var user = new User
+            {
+                UserName = username,
+                Password = password,
+            };
+            _context.Users.Add(user);
+            await _context.SaveChangesAsync();
         }
     }
 }

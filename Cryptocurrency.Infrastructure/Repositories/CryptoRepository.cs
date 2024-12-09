@@ -21,7 +21,7 @@ namespace Cryptocurrency.Infrastructure.Repositories
 
         public async Task SaveCryptoSymbolAsync(CryptoSymbol cryptoSymbol)
         {
-            _context.CryptoSymbols.Update(cryptoSymbol);
+            _context.CryptoSymbols.Add(cryptoSymbol);
             await _context.SaveChangesAsync();
         }
 

@@ -1,4 +1,4 @@
-﻿namespace Cryptocurrency.Api.Interfaces
+﻿namespace Cryptocurrency.Api.Infrastructure.Token
 {
     public interface IJwtService
     {

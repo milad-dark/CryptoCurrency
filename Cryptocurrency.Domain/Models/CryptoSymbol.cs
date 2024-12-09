@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace Cryptocurrency.Domain.Models
+﻿namespace Cryptocurrency.Domain.Models
 {
     public class CryptoSymbol
     {

@@ -1,4 +1,5 @@
 ﻿using Cryptocurrency.Application.Crypto;
+using Cryptocurrency.Application.Helper;
 using Cryptocurrency.Application.Logger;
 using Cryptocurrency.Application.User;
 using Cryptocurrency.Infrastructure;
@@ -22,7 +23,7 @@ namespace Cryptocurrency.Application
             services.AddScoped<ICryptoApplication, CryptoApplication>();
             services.AddScoped<ILoggerService, LoggerService>();
             services.AddScoped<IUserService, UserService>();
-
+            services.AddScoped<PasswordHasher>();
 
 
             services.AddInfrastructureServices(configuration);
