@@ -1,0 +1,685 @@
+[22:30:22 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[22:30:22 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting starting
+[22:30:22 INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor] Decrypting secret element using Windows DPAPI.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+[22:30:22 DBG] [Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+[22:30:22 INF] [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7014
+[22:30:22 INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5139
+[22:30:22 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Cryptocurrency.Api
+[22:30:22 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+[22:30:22 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[22:30:22 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[22:30:22 INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[22:30:22 INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+[22:30:22 INF] [Microsoft.Hosting.Lifetime] Content root path: D:\Projects\CryptoCurrency\Cryptocurrency.Api
+[22:30:22 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting started
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANQ" accepted.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANQ" started.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANR" accepted.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANR" started.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANS" accepted.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANS" started.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANT" accepted.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANT" started.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOANT" received FIN.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIQ5NOANT established using the following protocol: "Tls13"
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIQ5NOANS established using the following protocol: "Tls13"
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Http2] Connection id "0HN9AIQ5NOANT" is closed. The last processed stream ID was 0.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOANT" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Http2] The connection queue processing loop for 0HN9AIQ5NOANT completed.
+[22:30:23 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANT" stopped.
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger - null null
+[22:30:23 DBG] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] Wildcard detected, all requests with hosts will be allowed.
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger'
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger - 301 0 null 249.0309ms
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/index.html'
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:23 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup is scheduled to include Browser Link script injection.
+[22:30:23 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup is scheduled to include browser refresh script injection.
+[22:30:23 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup was updated to include Browser Link script injection.
+[22:30:23 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup was updated to include browser refresh script injection.
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 70.5619ms
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui.css - null null
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui-bundle.js - null null
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui.css'
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:23 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:23 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui.css - 200 143943 text/css 38.2273ms
+[22:30:23 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[22:30:23 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 53.7936ms
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui-standalone-preset.js - null null
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 16.1095ms
+[22:30:24 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 41.1299ms
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 51.8375ms
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/favicon-32x32.png - null null
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/favicon-32x32.png'
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:24 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/favicon-32x32.png - 200 628 image/png 10.0576ms
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/favicon-16x16.png - null null
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/favicon-16x16.png'
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:24 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/favicon-16x16.png - 200 665 image/png 9.9727ms
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/v1/swagger.json'
+[22:30:24 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:30:24 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.6881ms
+[22:30:33 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Authentication of the HTTPS connection timed out.
+[22:30:33 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Authentication of the HTTPS connection timed out.
+[22:30:33 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANR" stopped.
+[22:30:33 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANQ" stopped.
+[22:30:33 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOANR" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:30:33 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOANQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANU" accepted.
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOANU" received FIN.
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANV" accepted.
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANU" started.
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANV" started.
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIQ5NOANV established using the following protocol: "Tls13"
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOANU" stopped.
+[22:30:58 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetLastSearch - null null
+[22:30:58 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOANU" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:30:58 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetLastSearch'
+[22:30:58 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/GetLastSearch' is valid for the request path '/api/crypto/GetLastSearch'
+[22:30:58 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[22:30:58 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[22:30:59 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[22:30:59 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[22:30:59 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[22:30:59 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[22:30:59 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[22:30:59 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[22:30:59 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[22:30:59 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[22:30:59 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[22:30:59 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:31:08 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:31:08 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+[22:31:14 ERR] [Cryptocurrency.Application.Crypto.CryptoApplication] get history user has error
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=GET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Idle, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MILAD-PC(SE.Redis-v2.8.22.13109), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=12,Max=32767), POOL: (Threads=7,QueuedItems=0,CompletedItems=626,Timers=8), v: 2.8.22.13109 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Cryptocurrency.Application.Cache.RedisCacheService.GetAsync[T](String key) in D:\Projects\CryptoCurrency\Cryptocurrency.Application\Cache\RedisCacheService.cs:line 16
+   at Cryptocurrency.Application.Crypto.CryptoApplication.GetSearchHistory(Int32 userId) in D:\Projects\CryptoCurrency\Cryptocurrency.Application\Crypto\CryptoApplication.cs:line 107
+[22:31:14 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 5994.9687ms.
+[22:31:14 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[22:31:14 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[22:31:14 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[22:31:14 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[22:31:14 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[22:31:14 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[22:31:14 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 14993.8621ms
+[22:31:14 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[22:31:14 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetLastSearch - 200 null application/json; charset=utf-8 15915.9467ms
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOAO0" received FIN.
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOAO0" accepted.
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOAO0" started.
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOAO1" accepted.
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOAO1" started.
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIQ5NOAO1 established using the following protocol: "Tls13"
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:32:03 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - null null
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIQ5NOAO0" stopped.
+[22:32:03 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetCrypto/btc'
+[22:32:03 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIQ5NOAO0" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:32:03 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/GetCrypto/{code}' is valid for the request path '/api/crypto/GetCrypto/btc'
+[22:32:03 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:32:03 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[22:32:03 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[22:32:03 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[22:32:03 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:32:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCryptoRates", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCryptoRates(System.String) on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to bind parameter 'code' of type 'System.String' ...
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+[22:32:03 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+[22:32:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) - Validation state: "Valid"
+[22:32:13 ERR] [Cryptocurrency.Application.Crypto.CryptoApplication] An unexpected error occurred in GetCryptoSymbolRatesAsync.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=GET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 2, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MILAD-PC(SE.Redis-v2.8.22.13109), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=12,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=1215,Timers=7), v: 2.8.22.13109 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Cryptocurrency.Application.Cache.RedisCacheService.GetAsync[T](String key) in D:\Projects\CryptoCurrency\Cryptocurrency.Application\Cache\RedisCacheService.cs:line 16
+   at Cryptocurrency.Application.Crypto.CryptoApplication.GetCryptoSymbolRatesAsync(String cryptoCode, Int32 userId) in D:\Projects\CryptoCurrency\Cryptocurrency.Application\Crypto\CryptoApplication.cs:line 48
+[22:32:13 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 10161.9671ms.
+[22:32:13 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[22:32:13 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[22:32:13 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[22:32:13 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[22:32:13 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[22:32:13 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing BadRequestObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse'.
+[22:32:13 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) in 10228.3307ms
+[22:32:13 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:32:13 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - 400 null application/json; charset=utf-8 10288.2195ms
+[22:35:45 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[22:35:45 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting starting
+[22:35:45 INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor] Decrypting secret element using Windows DPAPI.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+[22:35:45 DBG] [Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+[22:35:45 INF] [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7014
+[22:35:45 INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5139
+[22:35:45 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Cryptocurrency.Api
+[22:35:45 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+[22:35:45 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[22:35:45 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[22:35:45 INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[22:35:45 INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+[22:35:45 INF] [Microsoft.Hosting.Lifetime] Content root path: D:\Projects\CryptoCurrency\Cryptocurrency.Api
+[22:35:45 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting started
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4B" accepted.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4C" accepted.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4B" started.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4C" started.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4B" received FIN.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4C" received FIN.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4B" stopped.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4C" stopped.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4C" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4B" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4D" accepted.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4D" started.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4D" received FIN.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4E" accepted.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4E" started.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4D" stopped.
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIT63LR4E established using the following protocol: "Tls13"
+[22:35:46 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4D" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:35:46 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+[22:35:46 DBG] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] Wildcard detected, all requests with hosts will be allowed.
+[22:35:47 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/index.html'
+[22:35:47 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:35:47 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup is scheduled to include Browser Link script injection.
+[22:35:47 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup is scheduled to include browser refresh script injection.
+[22:35:47 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup was updated to include Browser Link script injection.
+[22:35:47 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup was updated to include browser refresh script injection.
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 225.9637ms
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 14.3797ms
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.6239ms
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+[22:35:47 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/v1/swagger.json'
+[22:35:47 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:35:47 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 65.8547ms
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4F" received FIN.
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4F" accepted.
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4F" started.
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4G" accepted.
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4G" started.
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIT63LR4G established using the following protocol: "Tls13"
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4F" stopped.
+[22:36:20 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - null null
+[22:36:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4F" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:36:20 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetCrypto/btc'
+[22:36:20 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/GetCrypto/{code}' is valid for the request path '/api/crypto/GetCrypto/btc'
+[22:36:20 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:36:20 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[22:36:20 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[22:36:20 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[22:36:20 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:36:20 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCryptoRates", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCryptoRates(System.String) on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[22:36:20 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[22:36:20 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[22:36:20 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[22:36:20 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[22:36:20 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[22:36:20 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to bind parameter 'code' of type 'System.String' ...
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+[22:36:28 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+[22:36:29 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) - Validation state: "Valid"
+[22:36:52 ERR] [Cryptocurrency.Application.Crypto.CryptoApplication] An unexpected error occurred in GetCryptoSymbolRatesAsync.
+StackExchange.Redis.RedisConnectionException: The message timed out in the backlog attempting to send because no connection became available (5000ms) - Last Connection Exception: It was not possible to connect to the redis server(s). ConnectTimeout, command=GET, timeout: 5000, inst: 0, qu: 0, qs: 0, aw: False, bw: CheckingForTimeout, rs: NotStarted, ws: Initializing, in: 0, last-in: 0, cur-in: 0, sync-ops: 0, async-ops: 1, serverEndpoint: localhost:6379, conn-sec: n/a, aoc: 0, mc: 1/1/0, mgr: 10 of 10 available, clientName: MILAD-PC(SE.Redis-v2.8.22.13109), IOCP: (Busy=0,Free=1000,Min=1,Max=1000), WORKER: (Busy=0,Free=32767,Min=12,Max=32767), POOL: (Threads=8,QueuedItems=0,CompletedItems=404,Timers=8), v: 2.8.22.13109 (Please take a look at this article for some common client-side issues that can cause timeouts: https://stackexchange.github.io/StackExchange.Redis/Timeouts)
+ ---> StackExchange.Redis.RedisConnectionException: It was not possible to connect to the redis server(s). ConnectTimeout
+   --- End of inner exception stack trace ---
+   at Cryptocurrency.Application.Cache.RedisCacheService.GetAsync[T](String key) in D:\Projects\CryptoCurrency\Cryptocurrency.Application\Cache\RedisCacheService.cs:line 16
+   at Cryptocurrency.Application.Crypto.CryptoApplication.GetCryptoSymbolRatesAsync(String cryptoCode, Int32 userId) in D:\Projects\CryptoCurrency\Cryptocurrency.Application\Crypto\CryptoApplication.cs:line 48
+[22:36:52 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.BadRequestObjectResult in 23113.7366ms.
+[22:36:52 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[22:36:52 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[22:36:52 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[22:36:52 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[22:36:52 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[22:36:52 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing BadRequestObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse'.
+[22:36:52 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) in 31735.2098ms
+[22:36:52 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:36:52 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - 400 null application/json; charset=utf-8 31896.6615ms
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4H" received FIN.
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4H" accepted.
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4H" started.
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4I" accepted.
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4I" started.
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIT63LR4I established using the following protocol: "Tls13"
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIT63LR4H" stopped.
+[22:37:25 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - null null
+[22:37:25 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIT63LR4H" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:37:25 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetCrypto/btc'
+[22:37:25 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/GetCrypto/{code}' is valid for the request path '/api/crypto/GetCrypto/btc'
+[22:37:25 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:37:25 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[22:37:25 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[22:37:25 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[22:37:25 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:37:25 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCryptoRates", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCryptoRates(System.String) on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to bind parameter 'code' of type 'System.String' ...
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+[22:37:25 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+[22:37:25 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) - Validation state: "Valid"
+[22:37:42 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[22:37:42 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting starting
+[22:37:43 INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor] Decrypting secret element using Windows DPAPI.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+[22:37:43 DBG] [Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+[22:37:43 INF] [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7014
+[22:37:43 INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5139
+[22:37:43 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Cryptocurrency.Api
+[22:37:43 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+[22:37:43 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[22:37:43 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[22:37:43 INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[22:37:43 INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+[22:37:43 INF] [Microsoft.Hosting.Lifetime] Content root path: D:\Projects\CryptoCurrency\Cryptocurrency.Api
+[22:37:43 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting started
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIU8UPJPG" received FIN.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIU8UPJPF" received FIN.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPF" accepted.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPG" accepted.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPF" started.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPG" started.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPG" stopped.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPF" stopped.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIU8UPJPF" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIU8UPJPG" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPH" accepted.
+[22:37:43 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPH" started.
+[22:37:44 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIU8UPJPH established using the following protocol: "Tls13"
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+[22:37:44 DBG] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] Wildcard detected, all requests with hosts will be allowed.
+[22:37:44 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/index.html'
+[22:37:44 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:37:44 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup is scheduled to include Browser Link script injection.
+[22:37:44 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup is scheduled to include browser refresh script injection.
+[22:37:44 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup was updated to include Browser Link script injection.
+[22:37:44 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup was updated to include browser refresh script injection.
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 227.3828ms
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 14.5057ms
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.2416ms
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+[22:37:44 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/v1/swagger.json'
+[22:37:44 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[22:37:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 68.4554ms
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIU8UPJPI" received FIN.
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPI" accepted.
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPI" started.
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPJ" accepted.
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPJ" started.
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9AIU8UPJPJ established using the following protocol: "Tls13"
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9AIU8UPJPI" stopped.
+[22:37:56 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - null null
+[22:37:56 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9AIU8UPJPI" sending FIN because: "The Socket transport's send loop completed gracefully."
+[22:37:56 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetCrypto/btc'
+[22:37:56 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/GetCrypto/{code}' is valid for the request path '/api/crypto/GetCrypto/btc'
+[22:37:56 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:37:56 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[22:37:56 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[22:37:56 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[22:37:56 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:37:56 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCryptoRates", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCryptoRates(System.String) on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[22:37:56 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[22:37:56 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[22:37:56 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[22:37:56 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[22:37:56 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[22:37:56 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to bind parameter 'code' of type 'System.String' ...
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+[22:38:05 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+[22:38:05 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) - Validation state: "Valid"
+[22:38:26 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] Start processing HTTP request GET https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=BTC
+[22:38:26 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Sending HTTP request GET https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=BTC
+[22:38:27 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Received HTTP response headers after 1002.07ms - 200
+[22:38:27 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] End processing HTTP request after 1016.5804ms - 200
+[22:38:28 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] Start processing HTTP request GET http://api.exchangeratesapi.io/v1/latest?access_key=f98dab572235feed5c651a18c2c13228
+[22:38:28 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Sending HTTP request GET http://api.exchangeratesapi.io/v1/latest?access_key=f98dab572235feed5c651a18c2c13228
+[22:38:30 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Received HTTP response headers after 1067.5576ms - 200
+[22:38:30 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] End processing HTTP request after 1073.2863ms - 200
+[22:38:46 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 41753.3102ms.
+[22:38:46 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] Start saving Crypto symbol and history for user
+[22:38:46 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[22:38:46 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[22:38:46 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[22:38:46 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[22:38:46 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[22:38:46 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[22:38:46 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) in 50408.062ms
+[22:38:46 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[22:38:46 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetCrypto/btc - 200 null application/json; charset=utf-8 50570.7162ms
+[22:38:47 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+[22:38:47 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[22:38:47 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'CryptoSymbol.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for 'ApplicationContext'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for 'ApplicationContext'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for 'ApplicationContext'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (28ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level 'Unspecified'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level 'Serializable'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (7ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "CryptoSymbols" ("Symbol", "UserId")
+VALUES (@p0, @p1)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (13ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "CryptoSymbols" ("Symbol", "UserId")
+VALUES (@p0, @p1)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'CryptoSymbol.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 31ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (3ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 3), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (3ms) [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 3), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 4ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 3ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 2ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (4ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 6ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 3ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (3ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'CryptoSymbol' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for 'ApplicationContext' with 6 entities written to the database.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'SearchHistory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for 'ApplicationContext'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for 'ApplicationContext'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for 'ApplicationContext'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (0ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "SearchHistories" ("CryptoSymbolId", "SearchedAt", "UserId")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+[22:38:48 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "SearchHistories" ("CryptoSymbolId", "SearchedAt", "UserId")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'SearchHistory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 19ms reading results.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (1ms).
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'SearchHistory' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[22:38:48 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+[22:38:48 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] End saving Crypto symbol and history for user

@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "229bffb7-4b5d-489a-b2d4-4f899dc26de7",
+		"name": "Crypto",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2247182"
+	},
+	"item": [
+		{
+			"name": "api/crypto/GetCrypto/btc",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "application/json, text/plain, /",
+						"disabled": true
+					},
+					{
+						"key": "accept-language",
+						"value": "en-US,en;q=0.9,fa;q=0.8",
+						"disabled": true
+					},
+					{
+						"key": "cookie",
+						"value": ".ASPXAUTH=0CC3945B5E34FE1F6781C58B1F19E91F9883648E3B4F38CD44F295FFE14517E2EDB4EAE106E74D3527B7E76172594B9962F5C8ADDECE2F00C09542AC74064465C5C0809EAA2C704103C1A9A6485459D9D68A7CC6634B7358B2F21E0D4345F9D74CD94DC3;"
+					},
+					{
+						"key": "origin",
+						"value": "https://betanextbof.asax.local",
+						"disabled": true
+					},
+					{
+						"key": "priority",
+						"value": "u=1, i",
+						"disabled": true
+					},
+					{
+						"key": "referer",
+						"value": "https://betanextbof.asax.local/",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua",
+						"value": "\"Google Chrome\";v=\"131\", \"Chromium\";v=\"131\", \"Not_A Brand\";v=\"24\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-mobile",
+						"value": "?0",
+						"disabled": true
+					},
+					{
+						"key": "sec-ch-ua-platform",
+						"value": "\"Windows\"",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-dest",
+						"value": "empty",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-mode",
+						"value": "cors",
+						"disabled": true
+					},
+					{
+						"key": "sec-fetch-site",
+						"value": "same-site",
+						"disabled": true
+					},
+					{
+						"key": "user-agent",
+						"value": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/crypto/GetCrypto/btc",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"crypto",
+						"GetCrypto",
+						"btc"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/auth/RegisterUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"milad\",\r\n  \"password\": \"Milad@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/auth/RegisterUser",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"auth",
+						"RegisterUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/crypto/GetLastSearch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/crypto/GetLastSearch",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"crypto",
+						"GetLastSearch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "api/auth/Login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"username\": \"admin\",\r\n  \"password\": \"Admin@123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/auth/Login",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"auth",
+						"Login"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJlbmNfcGF5bG9hZCI6IjdxdFdYWXJZVjFjMDA2bGpTcnoybWIvUW9aL3lCcS9RVUlJT2gwMmlSSkVNY1U2QTdrZk1OWVRwclV6QlFtTkZaU2xLUVJVZkJJNnhWa2dkOWhsYmVVN1U1SmhOVnBpSTk4Uktxd0xOMTB4bU01eGRwQisrYWpaZnJEWUJ3UXBPOVFORHQ3QU5KUGhyR09oOElZcUUwWmtTTWFLbFYzUTR5QVdjOEpBMFdoZlZGS1NVeVNlOXJkbm1sbDNONFFoWDBNM2lPTzZ6cDhpYktad2VFSTRyV3JkdXlTTEdON0RhOTRWY0gzUTFicmxjdC80eXVxZU4rNnU5WWh5endCeXB3NmF5VTlRaCtLRVBpcmQ3NGIrSTRtQ2JpOGZkNGxvUlJEVzVacmFnbm5JPSJ9.",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://localhost:7014/api",
+			"type": "string"
+		}
+	]
+}
