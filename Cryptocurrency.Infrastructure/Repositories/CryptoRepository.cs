@@ -7,26 +7,29 @@ namespace Cryptocurrency.Infrastructure.Repositories;
 
 public class CryptoRepository : ICryptoRepository
 {
-    private readonly ApplicationContext _context;
+    private readonly IDbContextFactory<ApplicationContext> _contextFactory;
 
-    public CryptoRepository(ApplicationContext context)
+    public CryptoRepository(IDbContextFactory<ApplicationContext> contextFactory)
     {
-        _context = context;
+        _contextFactory = contextFactory;
     }
 
     public async Task<CryptoSymbol> GetCryptoSymbolAsync(string symbol)
     {
-        return await _context.CryptoSymbols.FirstOrDefaultAsync(c => c.Symbol == symbol);
+        using var context = _contextFactory.CreateDbContext();
+        return await context.CryptoSymbols.FirstOrDefaultAsync(c => c.Symbol == symbol);
     }
 
     public async Task SaveCryptoSymbolAsync(CryptoSymbol cryptoSymbol)
     {
-        _context.CryptoSymbols.Add(cryptoSymbol);
-        await _context.SaveChangesAsync();
+        using var context = _contextFactory.CreateDbContext();
+        context.CryptoSymbols.Add(cryptoSymbol);
+        await context.SaveChangesAsync();
     }
 
     public async Task SaveSearchHistoryAsync(int userId, int cryptoSymbolId)
     {
+        using var context = _contextFactory.CreateDbContext();
         var history = new SearchHistory
         {
             UserId = userId,
@@ -34,13 +37,14 @@ public class CryptoRepository : ICryptoRepository
             SearchedAt = DateTime.UtcNow
         };
 
-        _context.SearchHistories.Add(history);
-        await _context.SaveChangesAsync();
+        context.SearchHistories.Add(history);
+        await context.SaveChangesAsync();
     }
 
     public async Task<IEnumerable<SearchHistory>> GetSearchHistoryByUserAsync(int userId)
     {
-        return await _context.SearchHistories
+        using var context = _contextFactory.CreateDbContext();
+        return await context.SearchHistories
             .Include(sh => sh.CryptoSymbol)
             .ThenInclude(ex => ex.ExchangeRates)
             .Where(sh => sh.UserId == userId)
