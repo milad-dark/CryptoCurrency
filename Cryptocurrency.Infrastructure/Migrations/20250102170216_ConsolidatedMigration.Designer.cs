@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Cryptocurrency.Infrastructure.Migrations
 {
     [DbContext(typeof(ApplicationContext))]
-    [Migration("20241208190350_updateExchangeRate")]
-    partial class updateExchangeRate
+    [Migration("20250102170216_ConsolidatedMigration")]
+    partial class ConsolidatedMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -86,6 +86,25 @@ namespace Cryptocurrency.Infrastructure.Migrations
                     b.HasIndex("CryptoSymbolId");
 
                     b.ToTable("SearchHistories");
+                });
+
+            modelBuilder.Entity("Cryptocurrency.Domain.Models.User", b =>
+                {
+                    b.Property<int>("UserId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserId");
+
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Cryptocurrency.Domain.Models.ExchangeRates", b =>

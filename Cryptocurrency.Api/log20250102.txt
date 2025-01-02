@@ -775,3 +775,957 @@ RETURNING "Id";
 [19:37:59 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
 [19:37:59 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (2ms).
 [19:37:59 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] End saving Crypto symbol and history for user
+[20:27:26 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+[20:27:26 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:27:27 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:29:10 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (23ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteScalar'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (0ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteScalar' (2ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteScalar' (4ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+[20:29:11 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (0ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[20:29:11 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 1ms reading results.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:29:11 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (5ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteScalar'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (0ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteScalar' (2ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteScalar' (4ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+[20:31:44 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (0ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[20:31:44 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 1ms reading results.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:31:44 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:32:15 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+[20:32:15 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:32:16 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:33:19 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ModelBinderFactory] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+[20:33:20 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting starting
+[20:33:20 INF] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] User profile is available. Using 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-0d0ec42d-d794-44d3-a87a-f0af0c5f979a.xml'.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-3925336f-5e61-4e30-88d2-e43ae4c829c3.xml'.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-7c19cd74-54ba-4bf1-80c1-540bf1b5b1da.xml'.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-9e46a897-4211-4749-a41a-fc10bc40ed96.xml'.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.Repositories.FileSystemXmlRepository] Reading data from file 'C:\Users\New Server\AppData\Local\ASP.NET\DataProtection-Keys\key-f019c0bf-0a74-4c94-875e-34fe2f8ed086.xml'.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {0d0ec42d-d794-44d3-a87a-f0af0c5f979a}.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {3925336f-5e61-4e30-88d2-e43ae4c829c3}.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {7c19cd74-54ba-4bf1-80c1-540bf1b5b1da}.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {9e46a897-4211-4749-a41a-fc10bc40ed96}.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] Found key {f019c0bf-0a74-4c94-875e-34fe2f8ed086}.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.DefaultKeyResolver] Considering key {3925336f-5e61-4e30-88d2-e43ae4c829c3} with expiration date 2025-03-08 18:52:05Z as default key.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor] Decrypting secret element using Windows DPAPI.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.TypeForwardingActivator] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.CngCbcAuthenticatedEncryptorFactory] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingProvider] Using key {3925336f-5e61-4e30-88d2-e43ae4c829c3} as the default key.
+[20:33:20 DBG] [Microsoft.AspNetCore.DataProtection.Internal.DataProtectionHostedService] Key ring with default key {3925336f-5e61-4e30-88d2-e43ae4c829c3} was loaded during application startup.
+[20:33:20 INF] [Microsoft.Hosting.Lifetime] Now listening on: https://localhost:7014
+[20:33:20 INF] [Microsoft.Hosting.Lifetime] Now listening on: http://localhost:5139
+[20:33:20 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Cryptocurrency.Api
+[20:33:20 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+[20:33:20 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+[20:33:20 DBG] [Microsoft.AspNetCore.Hosting.Diagnostics] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+[20:33:20 INF] [Microsoft.Hosting.Lifetime] Application started. Press Ctrl+C to shut down.
+[20:33:20 INF] [Microsoft.Hosting.Lifetime] Hosting environment: Development
+[20:33:20 INF] [Microsoft.Hosting.Lifetime] Content root path: D:\Projects\CryptoCurrency\Cryptocurrency.Api
+[20:33:20 DBG] [Microsoft.Extensions.Hosting.Internal.Host] Hosting started
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0C" accepted.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0C" started.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0D" accepted.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0D" started.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9B9TE2PF0D" received FIN.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9B9TE2PF0C" received FIN.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0C" stopped.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0D" stopped.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0E" accepted.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9B9TE2PF0C" sending FIN because: "The Socket transport's send loop completed gracefully."
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9B9TE2PF0D" sending FIN because: "The Socket transport's send loop completed gracefully."
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0E" started.
+[20:33:20 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9B9TE2PF0E established using the following protocol: "Tls13"
+[20:33:20 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+[20:33:21 DBG] [Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware] Wildcard detected, all requests with hosts will be allowed.
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/index.html'
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:33:21 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup is scheduled to include Browser Link script injection.
+[20:33:21 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup is scheduled to include browser refresh script injection.
+[20:33:21 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup was updated to include Browser Link script injection.
+[20:33:21 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup was updated to include browser refresh script injection.
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 218.505ms
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui.css - null null
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui.css'
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:33:21 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+[20:33:21 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui.css - 499 143943 text/css 76.7465ms
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 5.0033ms
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.0732ms
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/favicon-32x32.png - null null
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/favicon-16x16.png - null null
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/favicon-32x32.png'
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/favicon-16x16.png'
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+[20:33:21 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+[20:33:21 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] The file transmission was cancelled
+System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Threading.CancellationToken.ThrowIfCancellationRequested()
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Http.SendFileResponseExtensions.SendFileAsyncCore(HttpResponse response, IFileInfo file, Int64 offset, Nullable`1 count, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileContext.SendAsync()
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/v1/swagger.json'
+[20:33:21 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+[20:33:21 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/favicon-16x16.png'. Physical path: 'N/A'
+[20:33:21 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/favicon-32x32.png - 499 628 image/png 131.5819ms
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/favicon-16x16.png - 499 665 image/png 131.5606ms
+[20:33:21 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 140.7182ms
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0F" accepted.
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9B9TE2PF0F" received FIN.
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0F" started.
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0G" accepted.
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0G" started.
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9B9TE2PF0G established using the following protocol: "Tls13"
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0F" stopped.
+[20:33:22 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetLastSearch - null null
+[20:33:22 DBG] [Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets] Connection id "0HN9B9TE2PF0F" sending FIN because: "The Socket transport's send loop completed gracefully."
+[20:33:22 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetLastSearch'
+[20:33:22 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/GetLastSearch' is valid for the request path '/api/crypto/GetLastSearch'
+[20:33:22 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:33:22 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[20:33:22 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[20:33:22 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[20:33:22 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:33:22 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[20:33:22 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[20:33:22 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[20:33:22 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[20:33:22 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[20:33:22 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[20:33:22 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:33:31 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:33:31 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+[20:33:37 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] An 'IServiceProvider' was created for internal use by Entity Framework.
+[20:33:37 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:33:37 DBG] [Microsoft.EntityFrameworkCore.Query] Compiling query expression: 
+'DbSet<SearchHistory>()
+    .Include(sh => sh.CryptoSymbol)
+    .ThenInclude(ex => ex.ExchangeRates)
+    .Where(sh => sh.UserId == __userId_0)'
+[20:33:37 DBG] [Microsoft.EntityFrameworkCore.Query] Including navigation: 'SearchHistory.CryptoSymbol'.
+[20:33:37 DBG] [Microsoft.EntityFrameworkCore.Query] Including navigation: 'CryptoSymbol.ExchangeRates'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Query] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<SearchHistory>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Client Projections:
+            0 -> Dictionary<IProperty, int> { [Property: SearchHistory.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: SearchHistory.CryptoSymbolId (int) Required FK Index, 1], [Property: SearchHistory.SearchedAt (DateTime) Required, 2], [Property: SearchHistory.UserId (int) Required, 3] }
+            1 -> Dictionary<IProperty, int> { [Property: CryptoSymbol.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 4], [Property: CryptoSymbol.Symbol (string) Required MaxLength(10), 5], [Property: CryptoSymbol.UserId (int) Required, 6] }
+            2 -> 0
+            3 -> 4
+            4 -> Dictionary<IProperty, int> { [Property: ExchangeRates.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 7], [Property: ExchangeRates.CryptoSymbolId (int) Required FK Index, 8], [Property: ExchangeRates.Currency (string) Required MaxLength(5), 9], [Property: ExchangeRates.Price (decimal) Required, 10], [Property: ExchangeRates.Timestamp (DateTime) Required, 11] }
+            5 -> 7
+        SELECT s.Id, s.CryptoSymbolId, s.SearchedAt, s.UserId, c.Id, c.Symbol, c.UserId, e.Id, e.CryptoSymbolId, e.Currency, e.Price, e.Timestamp
+        FROM SearchHistories AS s
+        INNER JOIN CryptoSymbols AS c ON s.CryptoSymbolId == c.Id
+        LEFT JOIN ExchangeRates AS e ON c.Id == e.CryptoSymbolId
+        WHERE s.UserId == @__userId_0
+        ORDER BY s.Id ASC, c.Id ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, SearchHistory>, 
+    Cryptocurrency.Infrastructure.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (7ms).
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (2ms).
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (7ms).
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+[20:33:38 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (17ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 273ms reading results.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (4ms).
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:33:38 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (4ms).
+[20:33:38 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] Retrieved search history for userId: 1
+[20:33:44 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12961.7328ms.
+[20:33:44 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[20:33:44 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[20:33:44 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[20:33:44 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[20:33:44 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[20:33:44 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[20:33:44 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 21603.38ms
+[20:33:44 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:33:44 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetLastSearch - 200 null application/json; charset=utf-8 21751.3774ms
+[20:33:51 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetLastSearch - null null
+[20:33:51 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetLastSearch'
+[20:33:51 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/GetLastSearch' is valid for the request path '/api/crypto/GetLastSearch'
+[20:33:51 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:33:51 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[20:33:51 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[20:33:51 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[20:33:51 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:33:51 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:33:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:33:51 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (2ms).
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (2ms).
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (5ms).
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+[20:33:57 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (4ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 155ms reading results.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:33:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:33:57 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] Retrieved search history for userId: 1
+[20:34:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11656.6504ms.
+[20:34:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[20:34:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[20:34:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[20:34:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[20:34:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[20:34:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[20:34:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 11696.728ms
+[20:34:03 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:34:03 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetLastSearch - 200 null application/json; charset=utf-8 11750.1193ms
+[20:34:29 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetCrypto/ftm - null null
+[20:34:29 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetCrypto/ftm'
+[20:34:29 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)' with route pattern 'api/crypto/GetCrypto/{code}' is valid for the request path '/api/crypto/GetCrypto/ftm'
+[20:34:29 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[20:34:29 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[20:34:29 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[20:34:29 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[20:34:29 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[20:34:29 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetCryptoRates", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetCryptoRates(System.String) on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to bind parameter 'code' of type 'System.String' ...
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Attempting to bind parameter 'code' of type 'System.String' using the name 'code' in request data ...
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to bind parameter 'code' of type 'System.String'.
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Attempting to validate the bound parameter 'code' of type 'System.String' ...
+[20:34:29 DBG] [Microsoft.AspNetCore.Mvc.ModelBinding.ParameterBinder] Done attempting to validate the bound parameter 'code' of type 'System.String'.
+[20:34:29 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) - Validation state: "Valid"
+[20:34:35 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] Start processing HTTP request GET https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=FTM
+[20:34:35 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Sending HTTP request GET https://pro-api.coinmarketcap.com/v1/cryptocurrency/quotes/latest?symbol=FTM
+[20:34:36 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Received HTTP response headers after 779.7239ms - 200
+[20:34:36 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] End processing HTTP request after 789.0579ms - 200
+[20:34:36 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] Start processing HTTP request GET http://api.exchangeratesapi.io/v1/latest?access_key=f98dab572235feed5c651a18c2c13228
+[20:34:36 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Sending HTTP request GET http://api.exchangeratesapi.io/v1/latest?access_key=f98dab572235feed5c651a18c2c13228
+[20:34:37 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.ClientHandler] Received HTTP response headers after 954.2466ms - 200
+[20:34:37 INF] [System.Net.Http.HttpClient.Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null.LogicalHandler] End processing HTTP request after 960.925ms - 200
+[20:34:42 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 12410.3634ms.
+[20:34:42 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] Start saving Crypto symbol and history for user
+[20:34:42 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[20:34:42 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[20:34:42 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[20:34:42 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[20:34:42 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[20:34:42 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse`1[[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[20:34:42 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api) in 12459.9323ms
+[20:34:42 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetCryptoRates (Cryptocurrency.Api)'
+[20:34:42 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetCrypto/ftm - 200 null application/json; charset=utf-8 12514.3511ms
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'CryptoSymbol.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'ExchangeRates.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'ExchangeRates.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for 'ApplicationContext'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for 'ApplicationContext'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for 'ApplicationContext'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (2ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Beginning transaction with isolation level 'Unspecified'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Began transaction with isolation level 'Serializable'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "CryptoSymbols" ("Symbol", "UserId")
+VALUES (@p0, @p1)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (3ms) [Parameters=[@p0='?' (Size = 3), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "CryptoSymbols" ("Symbol", "UserId")
+VALUES (@p0, @p1)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'CryptoSymbol.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.CryptoSymbolId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 33ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (4ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 3), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (3ms) [Parameters=[@p2='?' (DbType = Int32), @p3='?' (Size = 3), @p4='?' (DbType = Decimal), @p5='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p2, @p3, @p4, @p5)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 7ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 4ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 2ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 2ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (Size = 3), @p2='?' (DbType = Decimal), @p3='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "ExchangeRates" ("CryptoSymbolId", "Currency", "Price", "Timestamp")
+VALUES (@p0, @p1, @p2, @p3)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'ExchangeRates.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 2ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committing transaction.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Committed transaction.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (0ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Transaction] Disposing transaction.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'CryptoSymbol' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'ExchangeRates' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for 'ApplicationContext' with 6 entities written to the database.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] 'ApplicationContext' generated a temporary value for the property 'SearchHistory.Id'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges starting for 'ApplicationContext'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges starting for 'ApplicationContext'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] DetectChanges completed for 'ApplicationContext'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (2ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "SearchHistories" ("CryptoSymbolId", "SearchedAt", "UserId")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+[20:34:42 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime), @p2='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "SearchHistories" ("CryptoSymbolId", "SearchedAt", "UserId")
+VALUES (@p0, @p1, @p2)
+RETURNING "Id";
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The foreign key property 'SearchHistory.Id' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 19ms reading results.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] An entity of type 'SearchHistory' tracked by 'ApplicationContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Update] SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:34:42 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:34:42 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] End saving Crypto symbol and history for user
+[20:34:51 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost/api/crypto/GetLastSearch - null null
+[20:34:51 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] 1 candidate(s) found for the request path '/api/crypto/GetLastSearch'
+[20:34:51 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] Endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)' with route pattern 'api/crypto/GetLastSearch' is valid for the request path '/api/crypto/GetLastSearch'
+[20:34:51 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request matched endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:34:51 DBG] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Static files was skipped as the request already matched an endpoint.
+[20:34:51 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenInvalidSignatureException: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignature(JsonWebToken jwtToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateSignatureAndIssuerSecurityKey(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+[20:34:51 INF] [Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler] Bearer was not authenticated. Failure message: IDX10504: Unable to validate signature, token does not have a signature: '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+[20:34:51 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executing endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:34:51 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Route matched with {action = "GetLastSearch", controller = "Crypto"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLastSearch() on controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api).
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of authorization filters (in the following order): ["Cryptocurrency.Api.Infrastructure.Authorization.FilterAuthorizeAttribute+AuthorizeAttributeFilterAttribute"]
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of resource filters (in the following order): ["None"]
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)"]
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of exception filters (in the following order): ["None"]
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Execution plan of result filters (in the following order): ["None"]
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:34:51 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed controller factory for controller Cryptocurrency.Api.Controllers.CryptoController (Cryptocurrency.Api)
+[20:34:51 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executing action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) - Validation state: "Valid"
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] Entity Framework Core 8.0.11 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.11' with options: None
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Creating DbConnection.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Created DbConnection. (0ms).
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opening connection to database 'main' on server 'ecommerce.db'.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Opened connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Creating DbCommand for 'ExecuteReader'.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Created DbCommand for 'ExecuteReader' (0ms).
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Initialized DbCommand for 'ExecuteReader' (2ms).
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Executing DbCommand [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+[20:34:57 INF] [Microsoft.EntityFrameworkCore.Database.Command] Executed DbCommand (5ms) [Parameters=[@__userId_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT "s"."Id", "s"."CryptoSymbolId", "s"."SearchedAt", "s"."UserId", "c"."Id", "c"."Symbol", "c"."UserId", "e"."Id", "e"."CryptoSymbolId", "e"."Currency", "e"."Price", "e"."Timestamp"
+FROM "SearchHistories" AS "s"
+INNER JOIN "CryptoSymbols" AS "c" ON "s"."CryptoSymbolId" = "c"."Id"
+LEFT JOIN "ExchangeRates" AS "e" ON "c"."Id" = "e"."CryptoSymbolId"
+WHERE "s"."UserId" = @__userId_0
+ORDER BY "s"."Id", "c"."Id"
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'SearchHistory' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] The navigation 'SearchHistory.CryptoSymbol' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'CryptoSymbol' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.ChangeTracking] Context 'ApplicationContext' started tracking 'ExchangeRates' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] Closing data reader to 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Command] A data reader for 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db' is being disposed after spending 173ms reading results.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closing connection to database 'main' on server 'D:\Projects\CryptoCurrency\Cryptocurrency.Api\ecommerce.db'.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Closed connection to database 'main' on server 'ecommerce.db' (1ms).
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Infrastructure] 'ApplicationContext' disposed.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposing connection to database 'main' on server 'ecommerce.db'.
+[20:34:57 DBG] [Microsoft.EntityFrameworkCore.Database.Connection] Disposed connection to database 'main' on server 'ecommerce.db' (3ms).
+[20:34:57 INF] [Cryptocurrency.Application.Crypto.CryptoApplication] Retrieved search history for userId: 1
+[20:35:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action method Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 11699.8204ms.
+[20:35:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+[20:35:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] No information found on request to perform content negotiation.
+[20:35:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+[20:35:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Attempting to select the first formatter in the output formatters list which can write the result.
+[20:35:03 DBG] [Microsoft.AspNetCore.Mvc.Infrastructure.DefaultOutputFormatterSelector] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+[20:35:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor] Executing OkObjectResult, writing value of type 'Cryptocurrency.Api.Infrastructure.GeneralApiContracts.ApiResponse`1[[System.Collections.Generic.IEnumerable`1[[Cryptocurrency.Application.Dtos.SearchHistoryDto, Cryptocurrency.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+[20:35:03 INF] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] Executed action Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api) in 11723.445ms
+[20:35:03 INF] [Microsoft.AspNetCore.Routing.EndpointMiddleware] Executed endpoint 'Cryptocurrency.Api.Controllers.CryptoController.GetLastSearch (Cryptocurrency.Api)'
+[20:35:03 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost/api/crypto/GetLastSearch - 200 null application/json; charset=utf-8 11775.2631ms
+[20:35:22 DBG] [Microsoft.Extensions.Http.DefaultHttpClientFactory] HttpMessageHandler expired after 120000ms for client 'Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyICoinMarketCapApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+[20:35:22 DBG] [Microsoft.Extensions.Http.DefaultHttpClientFactory] HttpMessageHandler expired after 120000ms for client 'Refit.Implementation.Generated+CryptocurrencyInfrastructureServiceProxyIExchangeRatesApi, Cryptocurrency.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null'
+[20:35:27 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0H" accepted.
+[20:35:27 DBG] [Microsoft.AspNetCore.Server.Kestrel.Connections] Connection id "0HN9B9TE2PF0H" started.
+[20:35:27 DBG] [Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware] Connection 0HN9B9TE2PF0H established using the following protocol: "Tls13"
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/index.html - null null
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/index.html'
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:35:27 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup is scheduled to include Browser Link script injection.
+[20:35:27 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup is scheduled to include browser refresh script injection.
+[20:35:27 DBG] [Microsoft.WebTools.BrowserLink.Net.BrowserLinkMiddleware] Response markup was updated to include Browser Link script injection.
+[20:35:27 DBG] [Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware] Response markup was updated to include browser refresh script injection.
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/index.html - 200 null text/html;charset=utf-8 31.1323ms
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui.css - null null
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - null null
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/_vs/browserLink - null null
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui-standalone-preset.js - null null
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_framework/aspnetcore-browser-refresh.js - 200 13771 application/javascript; charset=utf-8 3.6164ms
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/swagger-ui-bundle.js - null null
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui.css'
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/_vs/browserLink - 200 null text/javascript; charset=UTF-8 18.5042ms
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:35:27 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 37.7867ms
+[20:35:27 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui.css - 200 143943 text/css 51.4309ms
+[20:35:27 INF] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 76.8358ms
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request starting HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - null null
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.Matching.DfaMatcher] No candidates found for the request path '/swagger/v1/swagger.json'
+[20:35:27 DBG] [Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware] Request did not match any endpoints
+[20:35:27 INF] [Microsoft.AspNetCore.Hosting.Diagnostics] Request finished HTTP/2 GET https://localhost:7014/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.0527ms
+[20:35:32 DBG] [Microsoft.Extensions.Http.DefaultHttpClientFactory] Starting HttpMessageHandler cleanup cycle with 2 items
+[20:35:32 DBG] [Microsoft.Extensions.Http.DefaultHttpClientFactory] Ending HttpMessageHandler cleanup cycle after 0.0424ms - processed: 0 items - remaining: 2 items
